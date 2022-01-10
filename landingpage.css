@@ -1,0 +1,118 @@
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+#header-img {
+    display: inline;
+}
+
+.tits {
+    font-size: 35px;
+    font-style: bold;
+    text-shadow: 3px 3px 3px coral;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+}
+
+#video {
+    display: flex;
+    /* width: 50%; */
+    justify-content: center;
+    /* margin: auto; */
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex,
+.carflex,
+.athleteflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.fas {
+    font-size: xxx-large;
+    padding: 10px;
+    color: coral;
+}
+
+.bikepackage,
+.carpackage,
+.athlete {
+    border-style: groove;
+    padding: 10px;
+    box-shadow: 5px 5px 5px coral;
+}
+
+.forbike,
+.forcar,
+.forathlete {
+    border-style: outset;
+    padding: 35px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.price {
+    text-decoration: darkslategray;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bttn {
+    height: 45px;
+    width: 55px;
+    background-color: darksalmon;
+    border-radius: 20%;
+}
+
+.description {
+    font-size: 20px;
+}
+
+a {
+    color: firebrick;
+    text-decoration: none;
+}
+
+@media screen and (max-width:250px) {
+    #pricing {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+.forbike:hover,
+.forcar:hover,
+.forathlete:hover {
+    box-shadow: 15px 15px 15px black;
+}
